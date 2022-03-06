@@ -9,6 +9,7 @@ import MenuIcon from '@mui/icons-material/Menu'
 import Container from '@mui/material/Container'
 import Button from '@mui/material/Button'
 import MenuItem from '@mui/material/MenuItem'
+import { yellow } from '@mui/material/colors'
 
 const pages = ['Home', 'About', 'Services', 'Gallery', 'Team', 'Contact']
 
@@ -24,7 +25,11 @@ const Header = () => {
   }
 
   return (
-    <AppBar position="static" className="" style={{ background: '#4b5563' }}>
+    <AppBar
+      position="static"
+      className="header"
+      style={{ background: 'black', textTransform: 'none' }}
+    >
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <Typography
@@ -87,6 +92,11 @@ const Header = () => {
                 key={page}
                 onClick={handleCloseNavMenu}
                 sx={{ my: 2, color: 'white', display: 'block' }}
+                style={{
+                  textTransform: 'capitalize',
+                  paddingRight: '3rem',
+                  color: 'yelllow',
+                }}
               >
                 {page}
               </Button>

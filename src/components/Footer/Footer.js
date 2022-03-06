@@ -14,9 +14,10 @@ const Footer = () => {
       <FooterWrapper>
         <MainFooter>
           <ItemColumn>
-            <ItemTitle>Footer Item one</ItemTitle>
-            <Item>Item</Item>
-            <Item>Item 2</Item>
+            <ItemTitle>Helpful Links</ItemTitle>
+            <Item href="#">Why choose us</Item>
+            <Item href="#">Our Services</Item>
+            <Item href="#">About Us</Item>
           </ItemColumn>
           <ItemColumn>
             <ItemTitle>Footer Item one</ItemTitle>

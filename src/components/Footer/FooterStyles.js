@@ -37,7 +37,8 @@ export const ItemTitle = styled.h1`
   font-size: 12px;
   line-height: 24px;
   text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.4);
+  color: yellow;
+  /* color: rgba(255, 255, 255, 0.4); */
   /* margin-bottom: 16px; */
 `
 
@@ -48,8 +49,8 @@ export const ItemColumn = styled.div`
   width: 100%;
 `
 
-export const Item = styled.h5`
-  font-size: 18px;
+export const Item = styled.a`
+  font-size: 14px;
   line-height: 30px;
   color: rgba(255, 255, 255, 0.75);
   /* margin-bottom: 16px; */
@@ -57,9 +58,10 @@ export const Item = styled.h5`
   position: relative;
   left: 0;
   display: inline;
+  cursor: pointer;
 
   &:hover {
-    color: #fff;
+    color: green;
     left: 6px;
   }
 `
