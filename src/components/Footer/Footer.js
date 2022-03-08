@@ -20,14 +20,16 @@ const Footer = () => {
             <Item href="#">About Us</Item>
           </ItemColumn>
           <ItemColumn>
-            <ItemTitle>Footer Item one</ItemTitle>
-            <Item>Item</Item>
-            <Item>Item 2</Item>
+            <ItemTitle>Our Services</ItemTitle>
+            <Item href="#">Home Cleaning</Item>
+            <Item href="#">Office Cleaning</Item>
+            <Item href="#">Room Design</Item>
           </ItemColumn>
           <ItemColumn>
-            <ItemTitle>Footer Item one</ItemTitle>
-            <Item>Item</Item>
-            <Item>Item 2</Item>
+            <ItemTitle>Connect</ItemTitle>
+            <Item href="#">Twitter</Item>
+            <Item href="#">Facebook</Item>
+            <Item href="#">Instagram</Item>
           </ItemColumn>
         </MainFooter>
         <hr
